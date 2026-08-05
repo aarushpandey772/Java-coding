@@ -1,0 +1,54 @@
+body{
+font-family:Arial;
+background:#f2f2f2;
+margin:20px;
+}
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    display:block;
+    margin:20px auto;
+    border:4px solid #0066cc;
+}
+
+header{
+background:#0066cc;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+section{
+background:white;
+padding:20px;
+border-radius:10px;
+}
+
+h2{
+color:#0066cc;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+table,th,td{
+border:1px solid black;
+padding:10px;
+}
+
+input,textarea{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+background:#0066cc;
+color:white;
+padding:10px 20px;
+border:none;
+cursor:pointer;
+}

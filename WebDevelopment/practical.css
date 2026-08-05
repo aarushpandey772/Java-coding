@@ -1,0 +1,198 @@
+/* body 
+{ 
+ 
+font-family: Arial; 
+ 
+background-color:#f2f2f2; 
+ 
+} 
+ 
+ 
+ 
+header 
+{ 
+ 
+background:linear-gradient( 
+to right, 
+blue, 
+skyblue); 
+ 
+color:white; 
+ 
+text-align:center; 
+ 
+padding:30px; 
+ 
+} 
+ 
+ 
+ 
+section 
+{ 
+ 
+background:white; 
+ 
+margin:20px; 
+ 
+padding:20px; 
+ 
+border-radius:10px; 
+ 
+} 
+ 
+ 
+ 
+table 
+{ 
+ 
+width:100%; 
+ 
+border-collapse:collapse; 
+ 
+} 
+ 
+ 
+ 
+th,td 
+{ 
+ 
+border:1px solid black; 
+ 
+padding:10px; 
+ 
+} 
+ 
+ 
+ 
+button 
+{ 
+ 
+background:blue; 
+ 
+color:white; 
+ 
+padding:10px; 
+ 
+border:none; 
+ 
+} 
+ */
+
+ body
+{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    margin:0;
+}
+
+/* Header */
+
+header
+{
+    background:linear-gradient(to right,#0047ff,#33ccff);
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.profile
+{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    border:5px solid white;
+    margin-bottom:10px;
+}
+
+/* Sections */
+
+section
+{
+    background:white;
+    margin:20px auto;
+    padding:20px;
+    border-radius:12px;
+    width:80%;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+h2
+{
+    color:#0047ff;
+}
+
+/* Skills */
+
+.skills span
+{
+    display:inline-block;
+    background:#0047ff;
+    color:white;
+    padding:8px 15px;
+    margin:5px;
+    border-radius:20px;
+}
+
+/* Table */
+
+table
+{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th
+{
+    background:#0047ff;
+    color:white;
+}
+
+th,td
+{
+    border:1px solid #ccc;
+    padding:12px;
+    text-align:center;
+}
+
+tr:nth-child(even)
+{
+    background:#f9f9f9;
+}
+
+/* Form */
+
+input,
+textarea
+{
+    width:100%;
+    padding:10px;
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+button
+{
+    background:#0047ff;
+    color:white;
+    padding:12px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover
+{
+    background:#002fa7;
+}
+
+/* Footer */
+
+footer
+{
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:15px;
+    margin-top:20px;
+}
